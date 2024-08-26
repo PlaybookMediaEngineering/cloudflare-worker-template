@@ -1,4 +1,4 @@
-# Cloudflare Worker OpenAPI Service
+# Cloudflare Worker Template OpenAPI Service
 
 This project demonstrates a Cloudflare Worker implementation using OpenAPI 3.1 with [@hono/zod-openapi](https://github.com/honojs/hono). It serves as a template for building OpenAPI-compliant Workers that automatically generate the `openapi.json` schema from code and validate incoming requests against defined parameters and request bodies.
 
