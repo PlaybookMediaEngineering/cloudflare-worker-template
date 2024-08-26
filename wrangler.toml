@@ -39,7 +39,7 @@ binding = "AI"
 [[env.production.d1_databases]]
 binding = "DATABASE"
 database_name = "database"
-database_id = "f70dfe81-3ad1-4492-8b28-1584a6912802"
+database_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 # Bind a dispatch namespace. Use Workers for Platforms to deploy serverless functions programmatically on behalf of your customers.
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#dispatch-namespace-bindings-workers-for-platforms
@@ -70,11 +70,11 @@ new_classes = ["ServiceDurableObject"]
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#kv-namespaces
 [[env.production.kv_namespaces]]
 binding = "QUEUE_RESULTS"
-id = "2ab51ca2b589422283070bdc3477450f"
+id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 [[env.production.kv_namespaces]]
 binding = "KV_NAMESPACE"
-id = "c1cea77e80fd4c0e9cec432c3afc0540"
+id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 # Bind an mTLS certificate. Use to present a client certificate when communicating with another service.
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#mtls-certificates
